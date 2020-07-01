@@ -1,5 +1,5 @@
-## VScode配置ESlint+Prettier，实现Typescript代码格式自动校验并修复
-
+# VScode配置ESlint+Prettier，实现Typescript代码格式自动校验并修复
+![markdown](.png "markdown")
 ## 1、VScode搜索并安装这两个插件
 ```
 ESlint Prettier
