@@ -1,4 +1,4 @@
-# VScode配置ESlint+Prettier，实现Typescript代码格式自动校验并修复
+# VScode配置ESlint+Prettier，实现Typescript代码保存时，自动校验格式并修复
 ![markdown](https://raw.githubusercontent.com/DCLangX/howToAutoFixTypescript/master/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88.gif "markdown")
 ## 1、VScode搜索并安装这两个插件
 ```
