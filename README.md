@@ -23,10 +23,13 @@ ESlint Prettier
 ```
 yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier eslint-config-prettier eslint-plugin-prettier --dev
 ```
-
+或者
+```
+npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier eslint-config-prettier eslint-plugin-prettier --save-dev
+```
 ## 3、新建eslint配置文件
 在项目根目录下新建`.eslintrc.js`文件
-按需写入如下内容
+写入如下内容
 ```
 module.exports = {
   parser: "@typescript-eslint/parser", // 指定ESLint解析器
@@ -47,7 +50,7 @@ module.exports = {
 ```
 
 ## 4、配置Prettier
-如果pretter的默认配置你觉得用着蛋疼，那么同样在项目根目录下新建`.prettierrc`文件来修改它，下面列举一些常用设置，全部为默认选项，请按需修改
+这步是可选的，如果pretter的默认配置你觉得用着蛋疼，那么你可以在项目根目录下新建`.prettierrc`修改它的配置，下面列举一些常用设置，全部为默认选项，请按需修改
 ```
 {
   "printWidth": 80, //限制每行字符个数
