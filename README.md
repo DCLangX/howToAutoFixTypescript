@@ -37,7 +37,7 @@ module.exports = {
     sourceType: "module", // 允许使用导入
   },
   extends: [
-    "plugin:@typescript-eslint/recommended", // 使用@ typescript-eslint / eslint-plugin中的推荐规则
+    "plugin:@typescript-eslint/eslint-recommended", // 使用@ typescript-eslint / eslint-plugin中的推荐规则
     "prettier/@typescript-eslint", // 使用eslint-config-prettier禁用一些与Prettier冲突的ESLint规则
     "plugin:prettier/recommended" // 启用eslint-plugin-prettier和eslint-config-prettier，使编辑器显示错误提示，确保这项是扩展数组中的最后一个配置
   ],
@@ -67,6 +67,7 @@ module.exports = {
 更多配置可参考[Pretter文档](https://prettier.io/docs/en/options.html)
 
 ##如果还想配置vue、react文件相关的格式化，可以参考下面的说明
+
 <https://github.com/prettier/eslint-config-prettier>
 
 
